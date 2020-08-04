@@ -1,0 +1,7 @@
+apt update && apt upgrade -y
+apt install python git -y
+pkg install libxml2 libxslt
+pip install lxml requests colorama bs4
+git clone https://github.com/kitasS/SPamer
+cd SPamer
+python SPamer.py
